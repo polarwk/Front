@@ -15,7 +15,7 @@ export default {
       name: 'collection',
       displayName: 'menu.collection',
       meta: {
-        icon: 'vuestic-iconset-dashboard',
+        icon: 'vuestic-iconset-tables',
       },
     },
     {
@@ -24,6 +24,60 @@ export default {
       meta: {
         icon: 'vuestic-iconset-dashboard',
       },
+    },
+    {
+      name: 'base',
+      displayName: 'menu.base',
+      meta: {
+        icon: 'vuestic-iconset-settings',
+      },
+      disabled: true,
+      children: [
+        {
+          name: 'base1',
+          displayName: 'menu.base1',
+        },
+        {
+          name: 'base2',
+          displayName: 'menu.base2',
+        },
+      ],
+    },
+    {
+      name: 'resource',
+      displayName: 'menu.resource',
+      meta: {
+        icon: 'vuestic-iconset-settings',
+      },
+      disabled: true,
+      children: [
+        {
+          name: 'transportation',
+          displayName: 'menu.transportation',
+        },
+        {
+          name: 'processing',
+          displayName: 'menu.processing',
+        },
+      ],
+    },
+    {
+      name: 'report',
+      displayName: 'menu.report',
+      meta: {
+        icon: 'vuestic-iconset-graph',
+      },
+      disabled: true,
+      children: [
+        {
+          name: 'page1',
+          displayName: 'menu.page1',
+        },
+        {
+          name: 'page2',
+          displayName: 'menu.page2',
+        },
+      ],
     },
     {
       name: 'dashboard',

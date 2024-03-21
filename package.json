@@ -21,11 +21,13 @@
   "dependencies": {
     "@amcharts/amcharts5": "^5.2.19",
     "@amcharts/amcharts5-geodata": "^5.0.3",
+    "@antv/g2": "^5.1.16",
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@gtm-support/vue-gtm": "^2.0.0",
     "area-data": "^5.0.6",
     "axios": "^1.6.0",
     "chart.js": "^3.8.0",
+    "echarts": "^5.5.0",
     "epic-spinners": "^2.0.0",
     "flag-icons": "^6.6.4",
     "ionicons": "^4.6.3",
@@ -37,13 +39,15 @@
     "register-service-worker": "^1.7.1",
     "sass": "^1.53.0",
     "serve": "^14.2.0",
+    "tslib": "^2.3.1",
     "vue": "^3.2.25",
     "vue-area-linkage": "^5.1.0",
     "vue-chartjs": "^4.1.1",
     "vue-i18n": "^9.1.10",
     "vue-router": "^4.2.4",
     "vue-yandex-maps": "^0.12.3",
-    "vuestic-ui": "^1.7.3"
+    "vuestic-ui": "^1.7.3",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^0.12.2",

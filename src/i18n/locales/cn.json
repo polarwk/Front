@@ -180,20 +180,27 @@
     "fileUpload": "文件上传",
     "chat": "聊天",
     "collection": "基础数据收集",
-    "company": "我的项目"
+    "company": "我的项目",
+    "base": "基准线情景",
+    "base1": "情景1",
+    "base2": "情景2",
+    "resource": "资源化情景",
+    "transportation": "运输阶段",
+    "processing": "加工阶段",
+    "report": "碳减排效益报告",
+    "page1": "Page1",
+    "page2": "Page2"
   },
   "messages": {
     "all": "查看全部消息",
     "new": "来自{name}的新消息"
   },
   "company": {
-    "name": "我的项目1",
+    "name": "我的项目",
     "basicinfo": "基础信息",
     "moveinfo": "消耗品信息",
-    "save": "保存",
-    "form1":{
-      "name": "企业名称"
-    }
+    "report": "汇报选项",
+    "save": "保存"
   },
   "modal": {
     "cancel": "取消",

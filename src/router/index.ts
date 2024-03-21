@@ -33,6 +33,75 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../pages/admin/company/Company.vue'),
       },
       {
+        name: 'base',
+        path: 'base',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'base1',
+            path: 'base1',
+            component: () => import('../pages/admin/base/base1/Base1.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Charts',
+            // },
+          },
+          {
+            name: 'base2',
+            path: 'base2',
+            component: () => import('../pages/admin/base/base2/Base2.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Progress-Bars',
+            // },
+          },
+        ],
+      },
+      {
+        name: 'resource',
+        path: 'resource',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'transportation',
+            path: 'transportation',
+            component: () => import('../pages/admin/resource/transportation/Transportation.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Charts',
+            // },
+          },
+          {
+            name: 'processing',
+            path: 'processing',
+            component: () => import('../pages/admin/resource/processing/Processing.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Progress-Bars',
+            // },
+          },
+        ],
+      },
+      {
+        name: 'report',
+        path: 'report',
+        component: RouteViewComponent,
+        children: [
+          {
+            name: 'page1',
+            path: 'page1',
+            component: () => import('../pages/admin/report/page1/Page1.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Charts',
+            // },
+          },
+          {
+            name: 'page2',
+            path: 'page2',
+            component: () => import('../pages/admin/report/page2/Page2.vue'),
+            // meta: {
+            //   wikiLink: 'https://github.com/epicmaxco/vuestic-admin/wiki/Progress-Bars',
+            // },
+          },
+        ],
+      },
+      {
         name: 'statistics',
         path: 'statistics',
         component: RouteViewComponent,
